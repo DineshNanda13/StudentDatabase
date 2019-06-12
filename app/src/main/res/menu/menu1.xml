@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_student"
+        android:title="Add a student"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/add_many"
+        android:title="Add 5 students"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete_last"
+        android:title="Delete last entity"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete_database"
+        android:title="Delete database"
+        app:showAsAction="never"/>
+
+</menu>
